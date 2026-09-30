@@ -1,0 +1,198 @@
+# Add or Remove Components from Panels
+
+This guide addresses how to add or remove components from ``Panels``, starting with the most common: ``Row`` and ``Column``.
+
+## Row & Column Panels
+
+To start, we will declare a ``Column`` and populate it with some text and a widget:
+
+```python
+import panel as pn
+pn.extension() # for notebook
+
+column = pn.ui.Column('some text', pn.ui.FloatSlider())
+
+column
+```
+
+As we can manipulate a ``Row`` or ``Column`` object just like a Python list, we'll use `.append` to add some markdown:
+
+```python
+column.append('* Item 1\n* Item 2')
+
+column
+```
+
+Next, we add a few more widgets:
+
+```python
+column.extend([pn.ui.TextInput(), pn.ui.Checkbox(label='Tick this!')])
+
+column
+```
+
+Now, we change our mind and replace the ``Checkbox`` with a button:
+
+```python
+column[4] = pn.ui.Button(label='Click here')
+
+column
+```
+
+Finally, we decide to remove the FloatSlider widget, but we forget its index. We can use `print` to see the index of the components:
+
+```python
+print(column)
+```
+
+and then `.pop` to remove the FloatSlider:
+
+```python
+column.pop(1)
+
+column
+```
+
+Here is the complete code for this subsection in case you want to easily copy it:
+
+```python
+import panel as pn
+pn.extension() # for notebook
+
+column = pn.ui.Column('some text', pn.ui.FloatSlider())
+column.append('* Item 1\n* Item 2')
+column.extend([pn.ui.TextInput(), pn.ui.Checkbox(label='Tick this!')])
+column[4] = pn.ui.Button(label='Click here')
+column.pop(1)
+
+column
+```
+
+## Tabs Panel
+
+``Tabs`` can also be changed like a Python list. However, when adding or replacing tab items, it is also possible to pass a tuple providing a custom title for the tab. First, create a ``Tabs`` panel that contains a plot:
+
+```python
+from bokeh.plotting import figure
+
+p1 = figure(width=300, height=300)
+p1.line([1, 2, 3], [1, 2, 3])
+
+tabs = pn.ui.Tabs(p1)
+
+tabs
+```
+
+Then, add a new tab for a slider widget and include a title for this new tab:
+
+```python
+tabs.append(('Slider', pn.ui.FloatSlider()))
+
+tabs
+```
+
+Finally, add multiple additional tabs at once using `.extend`, passing titles for each:
+
+```python
+tabs.extend([
+    ('Text', pn.ui.TextInput()),
+    ('Color', pn.ui.ColorPicker())
+])
+
+tabs
+```
+
+Here is the complete code for this subsection in case you want to easily copy it:
+```python
+import panel as pn
+pn.extension() # for notebook
+from bokeh.plotting import figure
+
+p1 = figure(width=300, height=300)
+p1.line([1, 2, 3], [1, 2, 3])
+
+tabs = pn.ui.Tabs(p1)
+tabs.append(('Slider', pn.ui.FloatSlider()))
+tabs.extend([
+    ('Text', pn.ui.TextInput()),
+    ('Color', pn.ui.ColorPicker())
+])
+
+tabs
+```
+
+## GridSpec Panel
+
+A ``GridSpec`` behaves like a 2D array. The indexing is zero-based and specifies the rows first and the columns second.
+
+First, declare a ``GridSpec`` and add red and blue blocks. The red block goes in the first row and spans 3 columns. The blue block spans from the second to fourth row, but only occupies the first column:
+
+```python
+gridspec = pn.ui.GridSpec(sizing_mode='stretch_both', min_height=600)
+
+gridspec[0, :3] = pn.ui.Spacer(styles={'background': '#FF0000'})
+gridspec[1:3, 0] = pn.ui.Spacer(styles={'background': '#0000FF'})
+
+gridspec
+```
+
+Next, add our previously created bokeh figure to the remaining slots of the second row:
+
+```python
+gridspec[1:3, 1:3] = p1
+
+gridspec
+```
+
+Then, place an image and a ``Column`` of widgets under the plot:
+
+```python
+gridspec[3, 2] = pn.ui.Column(
+    pn.ui.FloatSlider(),
+    pn.ui.ColorPicker(),
+    pn.ui.Toggle(label='Toggle Me!'))
+gridspec[3, 1] = 'https://upload.wikimedia.org/wikipedia/commons/4/47/PNG_transparency_demonstration_1.png'
+
+gridspec
+```
+
+Finally, remove the Spacers:
+
+```python
+del gridspec[0, :3]
+del gridspec[1:3, 0]
+
+gridspec
+```
+
+Here is the complete code for this subsection in case you want to easily copy it:
+
+```python
+import panel as pn
+pn.extension() # for notebook
+
+gridspec = pn.ui.GridSpec(sizing_mode='stretch_both', max_height=400)
+
+gridspec[0, :3] = pn.ui.Spacer(styles={'background': '#FF0000'})
+gridspec[1:3, 0] = pn.ui.Spacer(styles={'background': '#0000FF'})
+
+gridspec[1:3, 1:3] = p1
+
+gridspec[3, 2] = pn.ui.Column(
+    pn.ui.FloatSlider(),
+    pn.ui.ColorPicker(),
+    pn.ui.Toggle(label='Toggle Me!'))
+gridspec[3, 1] = 'https://upload.wikimedia.org/wikipedia/commons/4/47/PNG_transparency_demonstration_1.png'
+
+del gridspec[0, :3]
+del gridspec[1:3, 0]
+
+gridspec
+```
+
+---
+
+## Related Resources
+
+- Learn more about Panes in [Explanation > Components](../../explanation/components/components_overview.md#panes).
+- For more detail about `GridSpec` Panels, see the [Component Gallery > GridSpec](../../reference/layouts/GridSpec).

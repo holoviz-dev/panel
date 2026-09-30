@@ -1,0 +1,32 @@
+# Control Visibility
+
+This guide addresses how to control the visibility of a component.
+
+---
+
+All components provide a `visible` parameter which toggles a component's visibility.
+
+Let's create three simple components with different colors. We'll set the visibility parameter of the blue one to `False`:
+
+```python
+import panel as pn
+
+pn.extension() # for notebook
+
+a = pn.ui.HTML(width=60, height=60, styles={'background': 'green'})
+b = pn.ui.HTML(width=60, height=60, styles={'background': 'blue'}, visible=False)
+c = pn.ui.HTML(width=60, height=60, styles={'background': 'red'})
+
+layout = pn.ui.Row(a, b, c)
+layout
+```
+
+In some cases, exposing control of component visibility within the user interface may come in handy. To achieve this, we can use the `controls` method on a component to create a widget that allows for the manipulation of the `visibility` parameter. For instance, after running the code cell, toggling the checkbox below will update the visibility of the blue `b` component above:
+
+```python
+b.controls(['visible'])[1]
+```
+
+---
+
+## Related Resources

@@ -1,0 +1,442 @@
+[
+  {
+    "package": "@deck.gl/carto",
+    "version": "9.4.0",
+    "specifier": "@deck.gl/carto@^9.1.14",
+    "license": "MIT",
+    "source": "https://cdn.jsdelivr.net/npm/@deck.gl/carto@^9.1.14/LICENSE",
+    "file": "licenses/@deck.gl/carto@9.4.0.txt"
+  },
+  {
+    "package": "@deck.gl/json",
+    "version": "9.1.14",
+    "specifier": "@deck.gl/json@9.1.14",
+    "license": "MIT",
+    "source": "https://cdn.jsdelivr.net/npm/@deck.gl/json@9.1.14/LICENSE",
+    "file": "licenses/@deck.gl/json@9.1.14.txt"
+  },
+  {
+    "package": "@finos/perspective",
+    "version": "3.8.0",
+    "specifier": "@finos/perspective@3.8.0",
+    "license": "Apache-2.0",
+    "source": "https://cdn.jsdelivr.net/npm/@finos/perspective@3.8.0/LICENSE.md",
+    "file": "licenses/@finos/perspective@3.8.0.txt"
+  },
+  {
+    "package": "@finos/perspective-viewer",
+    "version": "3.8.0",
+    "specifier": "@finos/perspective-viewer@3.8.0",
+    "license": "Apache-2.0",
+    "source": "https://cdn.jsdelivr.net/npm/@finos/perspective-viewer@3.8.0/LICENSE.md",
+    "file": "licenses/@finos/perspective-viewer@3.8.0.txt"
+  },
+  {
+    "package": "@finos/perspective-viewer-d3fc",
+    "version": "3.8.0",
+    "specifier": "@finos/perspective-viewer-d3fc@3.8.0",
+    "license": "Apache-2.0",
+    "source": "https://cdn.jsdelivr.net/npm/@finos/perspective-viewer-d3fc@3.8.0/LICENSE.md",
+    "file": "licenses/@finos/perspective-viewer-d3fc@3.8.0.txt"
+  },
+  {
+    "package": "@finos/perspective-viewer-datagrid",
+    "version": "3.8.0",
+    "specifier": "@finos/perspective-viewer-datagrid@3.8.0",
+    "license": "Apache-2.0",
+    "source": "https://cdn.jsdelivr.net/npm/@finos/perspective-viewer-datagrid@3.8.0/LICENSE.md",
+    "file": "licenses/@finos/perspective-viewer-datagrid@3.8.0.txt"
+  },
+  {
+    "package": "@fortawesome/fontawesome-free",
+    "version": "5.15.4",
+    "specifier": "@fortawesome/fontawesome-free@5.15.4",
+    "license": "(CC-BY-4.0 AND OFL-1.1 AND MIT)",
+    "source": "https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/LICENSE.txt",
+    "file": "licenses/@fortawesome/fontawesome-free@5.15.4.txt"
+  },
+  {
+    "package": "@loaders.gl/3d-tiles",
+    "version": "4.2.2",
+    "specifier": "@loaders.gl/3d-tiles@4.2.2",
+    "license": "MIT",
+    "source": "https://cdn.jsdelivr.net/npm/@loaders.gl/3d-tiles@4.2.2/LICENSE",
+    "file": "licenses/@loaders.gl/3d-tiles@4.2.2.txt"
+  },
+  {
+    "package": "@loaders.gl/csv",
+    "version": "4.2.2",
+    "specifier": "@loaders.gl/csv@4.2.2",
+    "license": "MIT",
+    "source": "https://cdn.jsdelivr.net/npm/@loaders.gl/csv@4.2.2/LICENSE",
+    "file": "licenses/@loaders.gl/csv@4.2.2.txt"
+  },
+  {
+    "package": "@loaders.gl/json",
+    "version": "4.2.2",
+    "specifier": "@loaders.gl/json@4.2.2",
+    "license": "MIT",
+    "source": "https://cdn.jsdelivr.net/npm/@loaders.gl/json@4.2.2/LICENSE",
+    "file": "licenses/@loaders.gl/json@4.2.2.txt"
+  },
+  {
+    "package": "@microsoft/fast-components",
+    "version": "2.30.6",
+    "specifier": "@microsoft/fast-components@2.30.6",
+    "license": "MIT",
+    "source": null,
+    "file": "licenses/@microsoft/fast-components@2.30.6.txt"
+  },
+  {
+    "package": "a11y-dialog",
+    "version": "7.5.3",
+    "specifier": "a11y-dialog@7",
+    "license": "MIT",
+    "source": "https://cdn.jsdelivr.net/npm/a11y-dialog@7/LICENSE",
+    "file": "licenses/a11y-dialog@7.5.3.txt"
+  },
+  {
+    "package": "ace-builds",
+    "version": "1.40.1",
+    "specifier": "ace-builds@1.40.1",
+    "license": "BSD-3-Clause",
+    "source": "https://cdn.jsdelivr.net/npm/ace-builds@1.40.1/LICENSE",
+    "file": "licenses/ace-builds@1.40.1.txt"
+  },
+  {
+    "package": "babel-standalone",
+    "version": "6.26.0",
+    "specifier": "babel-standalone@latest",
+    "license": "MIT",
+    "source": "https://cdn.jsdelivr.net/npm/babel-standalone@latest/LICENSE",
+    "file": "licenses/babel-standalone@6.26.0.txt"
+  },
+  {
+    "package": "bootstrap",
+    "version": "4.6.1",
+    "specifier": "bootstrap@4.6.1",
+    "license": "MIT",
+    "source": "https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/LICENSE",
+    "file": "licenses/bootstrap@4.6.1.txt"
+  },
+  {
+    "package": "bootstrap",
+    "version": "5.3.0-alpha1",
+    "specifier": "bootstrap@5.3.0-alpha1",
+    "license": "MIT",
+    "source": "https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/LICENSE",
+    "file": "licenses/bootstrap@5.3.0-alpha1.txt"
+  },
+  {
+    "package": "deck.gl",
+    "version": "9.1.14",
+    "specifier": "deck.gl@9.1.14",
+    "license": "MIT",
+    "source": "https://cdn.jsdelivr.net/npm/deck.gl@9.1.14/LICENSE",
+    "file": "licenses/deck.gl@9.1.14.txt"
+  },
+  {
+    "package": "echarts",
+    "version": "6.0.0",
+    "specifier": "echarts@6.0.0",
+    "license": "Apache-2.0",
+    "source": "https://cdn.jsdelivr.net/npm/echarts@6.0.0/LICENSE",
+    "file": "licenses/echarts@6.0.0.txt"
+  },
+  {
+    "package": "echarts-gl",
+    "version": "2.0.9",
+    "specifier": "echarts-gl@2.0.9",
+    "license": null,
+    "source": "https://cdn.jsdelivr.net/npm/echarts-gl@2.0.9/LICENSE",
+    "file": "licenses/echarts-gl@2.0.9.txt"
+  },
+  {
+    "package": "es-module-shims",
+    "version": "1.10.1",
+    "specifier": "es-module-shims@^1.10.0",
+    "license": "MIT",
+    "source": "https://cdn.jsdelivr.net/npm/es-module-shims@^1.10.0/LICENSE",
+    "file": "licenses/es-module-shims@1.10.1.txt"
+  },
+  {
+    "package": "filepond",
+    "version": "4.32.12",
+    "specifier": "filepond@^4",
+    "license": "MIT",
+    "source": "https://cdn.jsdelivr.net/npm/filepond@^4/LICENSE",
+    "file": "licenses/filepond@4.32.12.txt"
+  },
+  {
+    "package": "filepond-plugin-file-validate-size",
+    "version": "2.2.8",
+    "specifier": "filepond-plugin-file-validate-size",
+    "license": "MIT",
+    "source": "https://cdn.jsdelivr.net/npm/filepond-plugin-file-validate-size/LICENSE",
+    "file": "licenses/filepond-plugin-file-validate-size@2.2.8.txt"
+  },
+  {
+    "package": "filepond-plugin-file-validate-type",
+    "version": "1.2.9",
+    "specifier": "filepond-plugin-file-validate-type",
+    "license": "MIT",
+    "source": "https://cdn.jsdelivr.net/npm/filepond-plugin-file-validate-type/LICENSE",
+    "file": "licenses/filepond-plugin-file-validate-type@1.2.9.txt"
+  },
+  {
+    "package": "filepond-plugin-image-preview",
+    "version": "4.6.12",
+    "specifier": "filepond-plugin-image-preview",
+    "license": "MIT",
+    "source": "https://cdn.jsdelivr.net/npm/filepond-plugin-image-preview/LICENSE",
+    "file": "licenses/filepond-plugin-image-preview@4.6.12.txt"
+  },
+  {
+    "package": "filepond-plugin-pdf-preview",
+    "version": "1.0.4",
+    "specifier": "filepond-plugin-pdf-preview",
+    "license": "MIT",
+    "source": "https://cdn.jsdelivr.net/npm/filepond-plugin-pdf-preview/LICENSE",
+    "file": "licenses/filepond-plugin-pdf-preview@1.0.4.txt"
+  },
+  {
+    "package": "golden-layout",
+    "version": "1.5.9",
+    "specifier": "golden-layout@1.5.9",
+    "license": "MIT",
+    "source": "https://cdn.jsdelivr.net/npm/golden-layout@1.5.9/LICENSE",
+    "file": "licenses/golden-layout@1.5.9.txt"
+  },
+  {
+    "package": "gridstack",
+    "version": "7.2.3",
+    "specifier": "gridstack@7.2.3",
+    "license": "MIT",
+    "source": "https://cdn.jsdelivr.net/npm/gridstack@7.2.3/LICENSE",
+    "file": "licenses/gridstack@7.2.3.txt"
+  },
+  {
+    "package": "h3-js",
+    "version": "4.1.0",
+    "specifier": "h3-js@4.1.0",
+    "license": "Apache-2.0",
+    "source": "https://cdn.jsdelivr.net/npm/h3-js@4.1.0/LICENSE",
+    "file": "licenses/h3-js@4.1.0.txt"
+  },
+  {
+    "package": "interactjs",
+    "version": "1.10.19",
+    "specifier": "interactjs@1.10.19",
+    "license": "MIT",
+    "source": "https://cdn.jsdelivr.net/npm/interactjs@1.10.19/LICENSE",
+    "file": "licenses/interactjs@1.10.19.txt"
+  },
+  {
+    "package": "jquery",
+    "version": "3.5.1",
+    "specifier": "jquery@3.5.1",
+    "license": "MIT",
+    "source": "https://cdn.jsdelivr.net/npm/jquery@3.5.1/LICENSE.txt",
+    "file": "licenses/jquery@3.5.1.txt"
+  },
+  {
+    "package": "jsoneditor",
+    "version": "10.2.0",
+    "specifier": "jsoneditor@10.2.0",
+    "license": "Apache-2.0",
+    "source": "https://cdn.jsdelivr.net/npm/jsoneditor@10.2.0/LICENSE",
+    "file": "licenses/jsoneditor@10.2.0.txt"
+  },
+  {
+    "package": "jspanel4",
+    "version": "4.12.0",
+    "specifier": "jspanel4@4.12.0",
+    "license": "MIT",
+    "source": "https://cdn.jsdelivr.net/npm/jspanel4@4.12.0/LICENSE",
+    "file": "licenses/jspanel4@4.12.0.txt"
+  },
+  {
+    "package": "katex",
+    "version": "0.16.22",
+    "specifier": "katex@0.16.22",
+    "license": "MIT",
+    "source": "https://cdn.jsdelivr.net/npm/katex@0.16.22/LICENSE",
+    "file": "licenses/katex@0.16.22.txt"
+  },
+  {
+    "package": "luxon",
+    "version": "3.7.2",
+    "specifier": "luxon",
+    "license": "MIT",
+    "source": "https://cdn.jsdelivr.net/npm/luxon/LICENSE.md",
+    "file": "licenses/luxon@3.7.2.txt"
+  },
+  {
+    "package": "mapbox-gl",
+    "version": "3.0.1",
+    "specifier": "mapbox-gl@3.0.1",
+    "license": "SEE LICENSE IN LICENSE.txt",
+    "source": "https://cdn.jsdelivr.net/npm/mapbox-gl@3.0.1/LICENSE.txt",
+    "file": "licenses/mapbox-gl@3.0.1.txt"
+  },
+  {
+    "package": "maplibre-gl",
+    "version": "4.4.1",
+    "specifier": "maplibre-gl@4.4.1",
+    "license": "BSD-3-Clause",
+    "source": "https://cdn.jsdelivr.net/npm/maplibre-gl@4.4.1/LICENSE.txt",
+    "file": "licenses/maplibre-gl@4.4.1.txt"
+  },
+  {
+    "package": "maplibre-gl",
+    "version": "6.11.2",
+    "specifier": "maplibre-gl",
+    "license": "BSD-3-Clause",
+    "source": "https://cdn.jsdelivr.net/npm/maplibre-gl/LICENSE.txt",
+    "file": "licenses/maplibre-gl@6.11.2.txt"
+  },
+  {
+    "package": "material-components-web",
+    "version": "7.0.0",
+    "specifier": "material-components-web@7.0.0",
+    "license": "MIT",
+    "source": "https://cdn.jsdelivr.net/npm/material-components-web@7.0.0/LICENSE",
+    "file": "licenses/material-components-web@7.0.0.txt"
+  },
+  {
+    "package": "muuri",
+    "version": "0.9.5",
+    "specifier": "muuri@0.9.5",
+    "license": "MIT",
+    "source": "https://cdn.jsdelivr.net/npm/muuri@0.9.5/LICENSE.md",
+    "file": "licenses/muuri@0.9.5.txt"
+  },
+  {
+    "package": "notyf",
+    "version": "3.10.0",
+    "specifier": "notyf@3",
+    "license": "MIT",
+    "source": "https://cdn.jsdelivr.net/npm/notyf@3/LICENSE.md",
+    "file": "licenses/notyf@3.10.0.txt"
+  },
+  {
+    "package": "plotly.js-dist-min",
+    "version": "3.1.0",
+    "specifier": "plotly.js-dist-min@3.1.0",
+    "license": "MIT",
+    "source": "https://cdn.jsdelivr.net/npm/plotly.js-dist-min@3.1.0/LICENSE",
+    "file": "licenses/plotly.js-dist-min@3.1.0.txt"
+  },
+  {
+    "package": "quill",
+    "version": "2.0.2",
+    "specifier": "quill@2.0.2",
+    "license": "BSD-3-Clause",
+    "source": "https://cdn.jsdelivr.net/npm/quill@2.0.2/LICENSE",
+    "file": "licenses/quill@2.0.2.txt"
+  },
+  {
+    "package": "react",
+    "version": "17.0.2",
+    "specifier": "react@17",
+    "license": "MIT",
+    "source": "https://cdn.jsdelivr.net/npm/react@17/LICENSE",
+    "file": "licenses/react@17.0.2.txt"
+  },
+  {
+    "package": "react-dom",
+    "version": "17.0.2",
+    "specifier": "react-dom@17",
+    "license": "MIT",
+    "source": "https://cdn.jsdelivr.net/npm/react-dom@17/LICENSE",
+    "file": "licenses/react-dom@17.0.2.txt"
+  },
+  {
+    "package": "react-grid-layout",
+    "version": "1.3.4",
+    "specifier": "react-grid-layout@1.3.4",
+    "license": "MIT",
+    "source": "https://cdn.jsdelivr.net/npm/react-grid-layout@1.3.4/LICENSE",
+    "file": "licenses/react-grid-layout@1.3.4.txt"
+  },
+  {
+    "package": "reveal.js",
+    "version": "4.5.0",
+    "specifier": "reveal.js@4.5.0",
+    "license": "MIT",
+    "source": "https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/LICENSE",
+    "file": "licenses/reveal.js@4.5.0.txt"
+  },
+  {
+    "package": "tabulator-tables",
+    "version": "6.4.0",
+    "specifier": "tabulator-tables@6.4.0",
+    "license": "MIT",
+    "source": "https://cdn.jsdelivr.net/npm/tabulator-tables@6.4.0/LICENSE",
+    "file": "licenses/tabulator-tables@6.4.0.txt"
+  },
+  {
+    "package": "vega",
+    "version": "6.1.2",
+    "specifier": "vega@6.1.2",
+    "license": "BSD-3-Clause",
+    "source": "https://cdn.jsdelivr.net/npm/vega@6.1.2/LICENSE",
+    "file": "licenses/vega@6.1.2.txt"
+  },
+  {
+    "package": "vega-embed",
+    "version": "7.0.2",
+    "specifier": "vega-embed@7.0.2",
+    "license": "BSD-3-Clause",
+    "source": "https://cdn.jsdelivr.net/npm/vega-embed@7.0.2/LICENSE",
+    "file": "licenses/vega-embed@7.0.2.txt"
+  },
+  {
+    "package": "vega-lite",
+    "version": "6.3.0",
+    "specifier": "vega-lite@6.3.0",
+    "license": "BSD-3-Clause",
+    "source": "https://cdn.jsdelivr.net/npm/vega-lite@6.3.0/LICENSE",
+    "file": "licenses/vega-lite@6.3.0.txt"
+  },
+  {
+    "package": "vtk.js",
+    "version": "30.1.0",
+    "specifier": "vtk.js@30.1.0",
+    "license": "BSD-3-Clause",
+    "source": "https://cdn.jsdelivr.net/npm/vtk.js@30.1.0/LICENSE",
+    "file": "licenses/vtk.js@30.1.0.txt"
+  },
+  {
+    "package": "web-animations-js",
+    "version": "2.3.2",
+    "specifier": "web-animations-js@2.3.2",
+    "license": "Apache-2.0",
+    "source": null,
+    "file": "licenses/web-animations-js@2.3.2.txt"
+  },
+  {
+    "package": "xterm",
+    "version": "4.11.0",
+    "specifier": "xterm@4.11.0",
+    "license": "MIT",
+    "source": "https://cdn.jsdelivr.net/npm/xterm@4.11.0/LICENSE",
+    "file": "licenses/xterm@4.11.0.txt"
+  },
+  {
+    "package": "xterm",
+    "version": "4.14.1",
+    "specifier": "xterm@4.14.1",
+    "license": "MIT",
+    "source": "https://cdn.jsdelivr.net/npm/xterm@4.14.1/LICENSE",
+    "file": "licenses/xterm@4.14.1.txt"
+  },
+  {
+    "package": "xterm-addon-web-links",
+    "version": "0.4.0",
+    "specifier": "xterm-addon-web-links@0.4.0",
+    "license": "MIT",
+    "source": "https://cdn.jsdelivr.net/npm/xterm-addon-web-links@0.4.0/LICENSE",
+    "file": "licenses/xterm-addon-web-links@0.4.0.txt"
+  }
+]

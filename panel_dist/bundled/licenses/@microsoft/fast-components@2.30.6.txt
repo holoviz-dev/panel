@@ -1,0 +1,2 @@
+@microsoft/fast-components 2.30.6 is distributed under the MIT license.
+The published package contains no license text of its own.
